@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const ArtworkPage = () => {
-  const { id } = useParams();
+  const { page, id } = useParams();
   const artwork = artworks.find((artwork) => artwork.path === id);
 
   if (!artwork) {
@@ -25,16 +25,9 @@ const ArtworkPage = () => {
   return (
     <>
       <div className="container pt-5">
-        {artwork.type === "drawings" && (
-          <Link to={`/drawings`} className="card-link">
-          <button type="button" className="btn-close" aria-label="Close"></button>
-          </Link>
-        )}
-        {artwork.type === "paintings" && (
-          <Link to={`/paintings`} className="card-link">
-          <button type="button" className="btn-close" aria-label="Close"></button>
-          </Link>
-        )}
+        <Link to={`/${page}`} className="card-link">
+        <button type="button" className="btn-close" aria-label="Close"></button>
+        </Link>
         <h1>{artwork.title}</h1>
         <div className="col-lg-8">
         <div id="carouselExample" className="carousel slide">

@@ -4,6 +4,7 @@
       "type": "paintings",
       "title": "Big Sur",
       "size": "18x22",
+      "date": "2023-12-11T12:00:00Z",
       "imageURL": "/images/bigsur/bigsur.jpeg",
       "imageCarousel": [
         "/images/bigsur/bigsur.jpeg",
@@ -18,6 +19,7 @@
         "type": "paintings",
         "title": "Breckenridge",
         "size": "18x22",
+        "date": "2024-02-11T12:00:00Z",
         "imageURL": "/images/breckenridge/breckenridge.jpeg",
         "imageCarousel": [
           "/images/breckenridge/breckenridge.jpeg",
@@ -31,6 +33,7 @@
         "type": "paintings",
         "title": "House",
         "size": "18x22",
+        "date": "2021-08-11T12:00:00Z",
         "imageURL": "/images/house/house.jpeg",
         "imageCarousel": [
           "/images/house/house.jpeg",
@@ -47,6 +50,7 @@
         "type": "antelopeCanyon",
         "title": "Antelope Canyon Tryptich",
         "size": "18x22",
+        "date": "2021-11-11T12:00:00Z",
         "imageURL": "/images/canyon/canyon.jpeg",
         "imageCarousel": [
           "/images/canyon/canyon.jpeg",

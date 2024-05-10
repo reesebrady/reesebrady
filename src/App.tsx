@@ -3,8 +3,7 @@ import Home  from './components/Home';
 import Layout from './components/Layout';
 import NoPage from './components/NoPage';
 import ArtworkPage from './components/ArtworkPage';
-import Paintings from './components/Paintings';
-import Drawings from './components/Drawings';
+import Artwork from './components/Artwork';
 
 const App = () => {
   return (
@@ -12,8 +11,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="paintings" element={<Paintings />} />
-          <Route path="drawings" element={<Drawings />} />
+          <Route path="/home" element={<Home />} />
+          <Route path=":page" element={<Artwork />} />
           <Route path=":page/:id" element={<ArtworkPage />} />
           <Route path="*" element={<NoPage />} />
         </Route>
