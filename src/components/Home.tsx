@@ -3,9 +3,9 @@ import "./style.css";
 import artworks from "../data/artworks.json";
 import Card from "../parts/Card";
 const Home = () => {
-  const artwork1 = artworks.find((artwork) => artwork.path === "city");
-  const artwork2 = artworks.find((artwork) => artwork.path === "bigsur");
-  const artwork3 = artworks.find((artwork) => artwork.path === "cat");
+  // const artwork1 = artworks.find((artwork) => artwork.path === "city");
+  // const artwork2 = artworks.find((artwork) => artwork.path === "bigsur");
+  // const artwork3 = artworks.find((artwork) => artwork.path === "cat");
   return (
     <>
       <div
@@ -40,7 +40,7 @@ const Home = () => {
           taken by me or by the person who commissioned the artwork.
         </p>
       </div>
-      <div className="container pt-5">
+      {/* <div className="container pt-5">
         <h1>Favorites</h1>
         <p>Below are my favorite 3 works!</p>
         <div className="container">
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
